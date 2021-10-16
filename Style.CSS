@@ -1,0 +1,105 @@
+.b1 {
+    background-color: violet;
+}
+.b2 {
+    background-color: turquoise;
+}
+.b3 {
+    background-color: tomato;
+}
+.b4 {
+    background-color: turquoise;
+}
+.b5 {
+    background-color: orange;
+}
+.b6 {
+    background-color: violet;
+}
+.a1 {
+    background-color: black;
+}
+.a2 {
+    background-color: black;
+}
+.a3 {
+   background-color: black; 
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+}
+.container {
+    height: 100%;
+}
+header {
+    background-color: black;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    height: 10vh;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    height: 10vh;
+}
+.main div {
+    display: flex;
+    padding: 10px 20px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+}
+.panel-l {
+    display: flex;
+    background-color: yellow;
+    width: 20%;
+    height: 80vh;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.block-r {
+    background-color: rgb(59, 124, 99);
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 80vh;
+}
+.flex {
+    background-color: slateblue;
+    flex-direction: column;
+    height: 50vh;
+}
+.flex-b {
+    height: 40vh;
+    flex-direction: row;
+}
+.side-l {
+    flex-direction: column;
+}
+.side-r {
+    flex-direction: column;
+}
+.text {
+    color: white;
+}
+.articles {
+    flex-direction: column;
+    height: 30vh;
+}
+.t2 {
+    justify-content: center;
+}
+.articles2 {
+    justify-content: space-around;
+    height: 30vh;
+    width: 100%;
+}
